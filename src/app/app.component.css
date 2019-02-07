@@ -1,0 +1,13 @@
+html, body {
+  height: 100%;
+}
+.my_main {
+  display: flex;
+  flex-direction: column;
+}
+.my_content {
+  flex: 1 0 auto;
+}
+.my_footer {
+  flex-shrink: 0;
+}
